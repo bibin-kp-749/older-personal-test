@@ -1,0 +1,191 @@
+.card{
+    height: 100%;
+  }
+  .card1{
+    height: 100%;
+
+  }
+  .custom-rounded-image{
+  width: 300px; 
+  height: 300px; 
+  align-self: center;
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+.nav-link:hover{
+  text-shadow: 2px 2px 2px rgb(71, 160, 232);
+}
+.nav-link:active{
+  font-weight: 500;
+  transform: translatey(.5px);
+}
+.form-control{
+  border-color:rgb(176, 173, 173);
+  border-style: double;
+}
+.inp{
+  color: black;
+  font-weight: 475;
+  margin-bottom: .2rem;
+}
+.btn1{
+  font-weight: 600;
+}
+.btn1:active{
+  background-color: green;
+  color: white;
+}
+.btn1:hover{
+  box-shadow: 3px 3px 10px grey;
+}
+.color{
+  background-color: #65c4e1;
+}
+
+.card-text{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.card-title{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 540;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+    padding-bottom: 1rem;
+}
+.navbar-toggler:hover{
+    cursor: pointer;
+    background-color: rgb(93, 206, 232);
+    border-color: rgb(71, 106, 145)
+}
+.card:hover{
+    background-color:#f7fbfc;
+}
+/* .body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode:both; 
+} 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+ }  */
+#goToTopButton {
+    width: 2rem;
+    height: 2rem;
+    display:none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 14px;
+    padding: 5px;
+    border: #333;
+    outline: none;
+    background-color:  #65c4e1;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    border: 1px solid rgb(102, 134, 171);
+  }
+  
+  #goToTopButton:hover {
+    opacity: 100;
+    cursor: initial
+  }
+  .arrow{
+    border: 1px;
+    margin: 0%;
+  }
+  /* .fade-in {
+    opacity: 0;
+    transition: opacity 0.3ms;
+  }
+  
+  .fade-in.fade-in-visible {
+    opacity: 1;
+  } */
+  #inputEmail4:hover{
+    background-color:#f7fbfc; 
+}
+#inputPassword4:hover{
+    background-color:#f7fbfc; 
+}
+#inputAddress:hover{
+    background-color:#f7fbfc; 
+}
+#inputAddress2:hover{
+    background-color:#f7fbfc; 
+}
+#inputarea:hover{
+    background-color:#f7fbfc; 
+}
+#inputEmail4:focus{
+  background-color:#f1f1f1e2;
+  border:1px solid #a3d2df ; 
+}
+#inputPassword4:focus{
+  background-color:#f1f1f1e2;
+  border:1px solid #a3d2df ; 
+}
+#inputAddress:focus{
+  background-color:#f1f1f1e2;
+  border:1px solid #a3d2df ; 
+}
+#inputAddress2:focus{
+  background-color:#f1f1f1e2;
+  border:1px solid #a3d2df ; 
+}
+#inputarea:focus{
+  background-color:#f1f1f1e2;
+  border:1px solid #a3d2df ; 
+}
+.cv{
+  border-radius: 50px;
+  width: 10rem;
+  height: 2.5rem;
+  border-style: solid;
+  border-width: 1.5px;
+  color: #65c4e1;
+  background-color: white;
+  border-color: #a3d2df ;
+  font-family: Verdana,sans-serif;
+  padding: auto;
+  margin-top: 1.5rem;
+  font-size: .9em; 
+  
+}
+.cv:hover{
+  background-color:#65c4e1 ;
+  color: white;
+  cursor: auto;
+}
+#facebook:active{
+  text-shadow: 1px 1px 1px white;
+}
+#instagram:active{
+  text-shadow:  1px 1px 5px white;
+}
+#gmail:active{
+    background-color: #65c4e1;
+}
+
+
+
+  
+
+
+  
+  
